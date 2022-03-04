@@ -1,11 +1,11 @@
 main.background{
-  background: url('media/background.jpg');
+  background: url(media/background.jpg);
   background-size: cover;
   height: 110vh;
   display: flex;
   justify-content: center;
 }
-main.witajta .wincej{
+main.background .witajta{
   padding-top:10rem;
   text-align:center;
   color:var(--white);
