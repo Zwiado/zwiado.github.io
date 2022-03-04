@@ -47,20 +47,6 @@
     color: black;
 }
 
-/* background */
-section {
-    padding: 2rem 15%;
-}
-
-.background {
-    min-height: 93vh;
-    background: url(media/background.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    place-items: center;
-    padding-top: 8rem;
-}
 @media screen and (max-width: 600px) {
 
 
