@@ -38,25 +38,10 @@
     font-size: 25px;
 }
 
-/* ustawienia dla wszystkich info */
-article {
-    padding: 10px 10px;
-    margin: 100px auto;
-    background: #f1f1f1;
-    position: relative;
-    border-radius: 7px;
-    margin-bottom: 25px;
-    bottom: 150px;
-}
-
-
-/* podkreĹ›lenie pod kursorem */
 .menu a.nieaktualna:hover {
     background-color: #ddd;
     color: black;
 }
-
-/* podkreĹ›lenie aktualnej strony */
 .menu a.aktualnastrona {
     background-color: silver;
     color: black;
@@ -76,25 +61,6 @@ section {
     place-items: center;
     padding-top: 8rem;
 }
-
-/* O mnie */
-
-.bloczek {
-    margin: 100px auto;
-    background: #f1f1f1;
-    position: relative;
-    border-radius: 7px;
-    text-align: center;
-    bottom: 150px;
-}
-
-.bloczek .omnien {
-    padding: 10px 10px;
-
-}
-
-/* optymalizacja na telefon */
-
 @media screen and (max-width: 600px) {
 
 
@@ -107,8 +73,4 @@ section {
 
     .menu a.logo {
         font-size: 30px;
-    }
-
-    .bloczek {
-        bottom: 150px
     }
