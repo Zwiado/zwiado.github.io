@@ -1,0 +1,33 @@
+main .background{
+  background: url('../media/background.png');
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+main .background .witajta{
+  padding-top:120px;
+  text-align:center;
+  color:var(--white);
+}
+main .background .zwiadowca{
+    margin: 24px;
+}
+main .background .atomic-button{
+    margin: 25px;
+}
+.zwiadowca{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+button.atomic-button{
+    border-radius: 25px;
+    border:none;
+    padding: 15px 30px;
+    cursor:pointer;
+    font-size: 20px;
+}
+main .background .atomic-button:hover{
+    background: #ddd;
+    color:var(--black);
+}

@@ -1,0 +1,21 @@
+main .sensacje .blog-post{
+    padding-top: 20px;
+}
+main .sensacje .nandakore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 50px 30px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+main .nandakore .pandemic-button{
+    padding: 10px 20px;
+    margin: 5px;
+}
+main .nandakore .jikan{
+    display: block;
+}
+main .nandakore .obrazek{
+    top: 10px;
+}
